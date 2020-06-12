@@ -12,7 +12,7 @@ public class CashbackHackServiceTest {
 
     @Test
     public void amountLessThanBoundaryTest() {
-        assertEquals(2, service.remain(999));
+        assertEquals(1, service.remain(999));
     }
 
     @Test
