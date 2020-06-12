@@ -1,1 +1,1 @@
-# netology-ci-test-project
+# netology-ci-test-project [![Build status](https://ci.appveyor.com/api/projects/status/dnnoi5cil0kl4eq2?svg=true)](https://ci.appveyor.com/project/bimanaev/netology-ci-test-project)
