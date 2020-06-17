@@ -12,9 +12,10 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 public class CashbackHackServiceTest {
     private CashbackHackService service = new CashbackHackService();
 
-    @Test
-    public void amountLessThanBoundaryTest() {
-        assertEquals(1, service.remain(999));
+    @ParameterizedTest
+    @ValueSource(ints = { 900, 999 })
+    public void amountLessThanBoundaryTest(int amount) {
+        assertEquals(1000 - amount, service.remain(amount));
     }
 
     @Test
