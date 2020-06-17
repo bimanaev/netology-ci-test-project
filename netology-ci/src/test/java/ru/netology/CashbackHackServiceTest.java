@@ -1,4 +1,4 @@
-package ru.bimanaev.netology;
+package ru.netology;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
